@@ -1,15 +1,89 @@
+/* загальні стилі */
 body {
   background: #fff;
-  font-family: "Roboro", sans-serif;
+  font-family: "Roboro", "Raleway" sans-serif;
+  font-style: normal;
   width: 1440px;
 }
+/* обнулення отступів для списків */
+.ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  /* відключення маркерів у списків */
+  /* чомусь глобально не працює... */
+  /* list-style-type: none; */
+}
 
+/* секція header */
+.main-menu {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  width: 1440px;
+  height: 72px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+/* логотип */
+.logo-container {
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  margin-left: 156px;
+}
+.logo-1st-part {
+  color: #4d5ae5;
+}
+.logo-2nd-part {
+  color: #2e2f42;
+}
+/* меню переходов по странице */
+.page-nav {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  list-style-type: none;
+  margin-left: 76px;
+}
+.page-nav-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+/* меню контактів */
+.contacts {
+  display: inline-flex;
+  gap: 40px;
+  list-style-type: none;
+  margin-left: 332px;
+  color: #434455;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.contacts-links {
+  color: #434455;
+  text-decoration: none;
+}
+
+
+/* 
 .our-team {
   background: #ffffff;
   display: inline-flex;
   padding-bottom: 32px;
   flex-direction: row;
   gap: 32px;
+  list-style-type: none;
 }
 .team-member {
   color: #434455;

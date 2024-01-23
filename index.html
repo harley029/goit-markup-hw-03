@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="description" content="WEBSTUDIO description meta tag content" />
     <title>WEBSTUDIO</title>
+    <!-- нормалізатор для різних браузерів -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
     <!-- підключення шрифту -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,19 +20,22 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="main-menu">
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="#studio">Studio</a></li>
-          <li><a href="#portfilio">Portfolio</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+        <a class="logo-container" href="./index.html">
+          <span class="logo-1st-part">Web</span
+          ><span class="logo-2nd-part">Studio</span></a
+        >
+        <ul class="page-nav">
+          <li><a href="#studio" class="page-nav-link">Studio</a></li>
+          <li><a href="#portfilio" class="page-nav-link">Portfolio</a></li>
+          <li><a href="#contacts" class="page-nav-link">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul class="contacts">
+          <li><a href="mailto:info@devstudio.com" class="contacts-links">info@devstudio.com</a></li>
+          <li><a href="tel:+110001111111"class="contacts-links">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
@@ -119,7 +127,7 @@
       </section>
       <!-- 3-тя секція Our Portfolio -->
       <section>
-        <h2>Our Portfolio</h2>
+        <h2 id="portfolio">Our Portfolio</h2>
         <!-- 1-й ряд портфолио -->
         <div>
           <ul>
@@ -193,7 +201,10 @@
       </section>
     </main>
     <footer>
-      <a href="./index.html">WebStudio</a>
+      <a class="logo-container" href="./index.html">
+        <span class="logo-1st-part">Web</span
+        ><span class="logo-2nd-part">Studio</span></a
+      >
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
