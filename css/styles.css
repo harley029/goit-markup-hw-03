@@ -12,7 +12,7 @@ body {
   margin-bottom: 0;
 }
 /* загальні стилі для заголовків */
-h2 {
+.titles-h2 {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
@@ -23,7 +23,7 @@ h2 {
   margin-top: 0;
   margin-bottom: 72px;
 }
-h3 {
+.titles-h3 {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
