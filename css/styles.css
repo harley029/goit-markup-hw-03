@@ -29,7 +29,7 @@ body {
   font-weight: 500;
   /* line-height: 24px; */
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
   margin-top: 0;
   margin-bottom: 8px;
 }
@@ -257,11 +257,13 @@ body {
   padding-top: 100px;
 }
 /* логотип */
-.footer-logo-2nd-part {
+.footer-logo-part {
   color: #f4f4fd;
 }
 .footer-text {
   color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   width: 264px;
   margin-top: 16px;
   margin-left: 156px;
