@@ -9,9 +9,26 @@ body {
 .ul {
   margin-top: 0;
   margin-bottom: 0;
-  /* відключення маркерів у списків */
-  /* чомусь глобально не працює... */
-  /* list-style-type: none; */
+}
+h2 {
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+h3 {
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.4px;
+}
+p {
+  color: var(--SLATE, #434455);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.32px;
 }
 
 /* секція header */
@@ -22,7 +39,6 @@ body {
   width: 1440px;
   height: 72px;
   padding-top: 25px;
-  padding-bottom: 25px;
 }
 /* логотип */
 .logo-container {
@@ -34,6 +50,7 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-left: 156px;
+  margin-top: 0;
 }
 .logo-1st-part {
   color: #4d5ae5;
@@ -48,6 +65,7 @@ body {
   gap: 40px;
   list-style-type: none;
   margin-left: 76px;
+  margin-top: 0;
 }
 .page-nav-link {
   color: #2e2f42;
@@ -69,12 +87,48 @@ body {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+  margin-top: 0;
 }
 .contacts-links {
   color: #434455;
   text-decoration: none;
 }
 
+/* Секція Intro */
+.intro {
+  background: #2E2F42;
+  height: 600px;
+flex-shrink: 0;
+/* padding-left: 472px;
+padding-right: 472px; */
+padding-top: 188px;
+}
+.main-header {
+  color: #FFF;
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 1.12px;
+width: 580px;
+margin-left: 430px;
+margin-bottom: 48px; 
+}
+.order-service-button {
+  width: 169px;
+  height: 56px;
+  margin-left: 636px;
+  border-radius: 4px;
+  background: #4D5AE5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15)
+}
+.button-text {
+  color: #FFF;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.64px;
+}
 
 /* 
 .our-team {
