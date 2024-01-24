@@ -190,6 +190,14 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em
 }
+.features-item-tytle {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-top: 0;
+}
 
 /* секція 3 - Our Team */
 .our-team {
@@ -198,6 +206,17 @@ body {
   padding-left: 156px;
   padding-right: 156px;
   padding-top: 120px;
+}
+.our-team-tytle {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 72px;
 }
 .our-team-list {
   display: flex;
@@ -216,6 +235,14 @@ body {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+.our-team-list-card-tytle {
+  olor: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-top: 0;
+}
 .our-team-list-content {
   margin-top: 32px;
 }
@@ -227,6 +254,17 @@ body {
   padding-left: 156px;
   padding-right: 156px;
   padding-top: 120px;
+}
+.our-portfolio-tytle {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 72px;
 }
 .portfolio-1st-line {
   margin-bottom: 48px;
