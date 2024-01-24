@@ -191,10 +191,10 @@ body {
   letter-spacing: 0.02em
 }
 .features-item-tytle {
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
+  color: #2e2f42 ;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   margin-top: 0;
 }
@@ -236,10 +236,10 @@ body {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .our-team-list-card-tytle {
-  olor: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   margin-top: 0;
 }
@@ -281,6 +281,14 @@ body {
   height: 420px;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
+}
+.portfolio-list-card-tytle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-top: 0;
 }
 .portfolio-list-card-content {
   margin-top: 32px;
