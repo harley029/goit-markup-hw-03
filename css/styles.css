@@ -9,7 +9,7 @@ body {
 /* обнулення отступів для списків */
 .ul {
   /* margin-top: 0; */
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 /* загальні стилі для заголовків */
 .titles-h2 {
@@ -19,9 +19,9 @@ body {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  text-align: center;
+  /* text-align: center; */
   /* margin-top: 0; */
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 .titles-h3 {
   color: #2e2f42;
@@ -30,7 +30,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   /* margin-top: 0; */
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 .paragraphs {
   color: #434455;
@@ -132,7 +132,7 @@ body {
   letter-spacing: 1.12px;
   /* width: 580px; */
   /* margin-left: 430px; */
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
 }
 .order-service-button {
   cursor: pointer;
@@ -214,9 +214,9 @@ body {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  text-align: center;
+  /* text-align: center; */
   /* margin-top: 0; */
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 .our-team-list {
   /* display: flex; */
@@ -225,7 +225,7 @@ body {
   /* gap: 24px; */
   list-style-type: none;
   /* flex-shrink: 0; */
-  text-align: center;
+  /* text-align: center; */
 }
 .our-team-list-card {
   /* height: 380px; */
@@ -262,12 +262,12 @@ body {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  text-align: center;
+  /* text-align: center; */
   /* margin-top: 0; */
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 .portfolio-1st-line {
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
 }
 .portfolio-list {
   /* display: flex; */
@@ -279,8 +279,8 @@ body {
 }
 .portfolio-list-card {
   /* height: 420px; */
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--WHITE, #fff);
+  /* border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff); */
 }
 .portfolio-list-card-tytle {
   color: #2e2f42;
