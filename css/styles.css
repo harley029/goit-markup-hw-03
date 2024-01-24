@@ -115,7 +115,7 @@ body {
   color: #404bbf;
 }
 
-/* Секція Intro */
+/* Секція 1 - Intro */
 .intro {
   background: #2e2f42;
   height: 600px;
@@ -162,7 +162,7 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-/* секція Features */
+/* секція 2 - Features */
 .section1 {
   height: 732px;
   flex-shrink: 0;
@@ -191,7 +191,7 @@ body {
   letter-spacing: 0.02em
 }
 
-/* секція Our Team */
+/* секція 3 - Our Team */
 .our-team {
   height: 732px;
   background: #f4f4fd;
@@ -220,7 +220,7 @@ body {
   margin-top: 32px;
 }
 
-/* Cекція Our Portfolio */
+/* Cекція 4 - Our Portfolio */
 .our-portfolio {
   height: 1240px;
   background: #fff;
