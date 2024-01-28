@@ -5,24 +5,14 @@ body {
   background: #fff;
   font-style: normal;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	margin-bottom: 0;
 }
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-img {
-  display: block;
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
 }
 /* загальні стилі для заголовків */
 .titles-h2 {
@@ -42,15 +32,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-/* ----- секція header --------------------------- */
-.main-menu {
-  display: flex;
-  align-items: center;
-}
-.nav-container {
-  display: flex;
-}
-/* логотип */
+/* секція header */
 .logo-container {
   font-family: Raleway, sans-serif;
   color: #4d5ae5;
@@ -67,9 +49,6 @@ img {
 /* меню переходов по странице */
 .page-nav {
   list-style-type: none;
-  display: flex;
-  gap: 40px;
-  margin-left: 76px;
 }
 .page-nav-link {
   color: #2e2f42;
@@ -86,19 +65,15 @@ img {
 }
 /* меню контактів */
 .contacts-container {
+  color: #434455;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 .contacts {
   list-style-type: none;
-  display: flex;
-  gap: 40px;
-  margin-left: 332px;
 }
 .contacts-links {
   color: #434455;
