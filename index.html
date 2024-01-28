@@ -1,52 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="description" content="WEBSTUDIO description meta tag content" >
+    <meta charset="UTF-8" />
+    <meta name="description" content="WEBSTUDIO description meta tag content" />
     <title>WEBSTUDIO</title>
     <!-- нормалізатор для різних браузерів -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
-    >
+    />
     <!-- підключення шрифту -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" >
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
-    >
+    />
     <!-- підключення стилів -->
-    <link rel="stylesheet" href="./css/styles.css" >
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Секція Головного меню -->
-    <header class="main-menu">
-      <nav>
-        <a class="logo-container" href="./index.html">
-          Web<span class="logo-2nd-part">Studio</span>
-        </a>
-        <ul class="page-nav">
-          <li><a href="./index.html" class="page-nav-link">Studio</a></li>
-          <li><a href="" class="page-nav-link">Portfolio</a></li>
-          <li><a href="" class="page-nav-link">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="contacts-container">
-        <ul class="contacts">
-          <li>
-            <a href="mailto:info@devstudio.com" class="contacts-links"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="contacts-links"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
-    </header>
+    <div>
+      <header class="main-menu">
+        <nav class="nav-container">
+          <a class="logo-container" href="./index.html">
+            Web<span class="logo-2nd-part">Studio</span>
+          </a>
+          <ul class="page-nav">
+            <li><a href="./index.html" class="page-nav-link">Studio</a></li>
+            <li><a href="" class="page-nav-link">Portfolio</a></li>
+            <li><a href="" class="page-nav-link">Contacts</a></li>
+          </ul>
+        </nav>
+        <div>
+        <address class="contacts-container">
+          <ul class="contacts">
+            <li>
+              <a href="mailto:info@devstudio.com" class="contacts-links"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="contacts-links"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address></div>
+      </header>
+    </div>
     <main>
       <!-- Cекція 1 Intro -->
       <section class="intro">
@@ -57,7 +60,7 @@
       </section>
       <!-- 2-га секція -->
       <section class="section1">
-        <h2 class="titles-h2">Included temporary</h2> 
+        <h2 class="titles-h2">Included temporary</h2>
         <ul class="features-list">
           <li class="features-item">
             <h3 class="features-item-tytle">Strategy</h3>
@@ -82,7 +85,7 @@
           </li>
           <li class="features-item">
             <h3 class="features-item-tytle">Technologies</h3>
-            <p  class="paragraphs">
+            <p class="paragraphs">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -99,10 +102,10 @@
               alt="Mark Guerrero"
               width="264"
               height="260"
-            >
+            />
             <!-- <div class="our-team-list-content"> -->
-              <h3 class="our-team-list-card-tytle">Mark Guerrero</h3>
-              <p class="paragraphs">Product Designer</p>
+            <h3 class="our-team-list-card-tytle">Mark Guerrero</h3>
+            <p class="paragraphs">Product Designer</p>
             <!-- </div> -->
           </li>
           <li class="our-team-list-card">
@@ -111,10 +114,10 @@
               alt="Tom Ford"
               width="264"
               height="260"
-            >
+            />
             <!-- <div class="our-team-list-content"> -->
-              <h3 class="our-team-list-card-tytle">Tom Ford</h3>
-              <p class="paragraphs">Frontend Developer</p>
+            <h3 class="our-team-list-card-tytle">Tom Ford</h3>
+            <p class="paragraphs">Frontend Developer</p>
             <!-- </div> -->
           </li>
           <li class="our-team-list-card">
@@ -123,10 +126,10 @@
               alt="Camila Garcia"
               width="264"
               height="260"
-            >
+            />
             <!-- <div class="our-team-list-content"> -->
-              <h3 class="our-team-list-card-tytle">Camila Garcia</h3>
-              <p class="paragraphs">Marketing</p>
+            <h3 class="our-team-list-card-tytle">Camila Garcia</h3>
+            <p class="paragraphs">Marketing</p>
             <!-- </div> -->
           </li>
           <li class="our-team-list-card">
@@ -135,10 +138,10 @@
               alt="Daniel Wilson"
               width="264"
               height="260"
-            >
+            />
             <!-- <div class="our-team-list-content"> -->
-              <h3 class="our-team-list-card-tytle">Daniel Wilson</h3>
-              <p class="paragraphs">UI Designer</p>
+            <h3 class="our-team-list-card-tytle">Daniel Wilson</h3>
+            <p class="paragraphs">UI Designer</p>
             <!-- </div> -->
           </li>
         </ul>
@@ -148,85 +151,85 @@
         <h2 class="our-portfolio-tytle">Our Portfolio</h2>
         <!-- 1-й ряд портфолио -->
         <!-- <div class="portfolio-1st-line"> -->
-          <ul class="portfolio-list">
-            <li class="portfolio-list-card">
-              <img
-                src="./images/banking_app.jpg"
-                alt="Banking App"
-                width="360"
-                height="300"
-              >
-              <!-- <div class="portfolio-list-card-content"> -->
-                <h3 class="portfolio-list-card-tytle">Banking App</h3>
-                <p class="paragraphs">App</p>
-              <!-- </div> -->
-            </li>
-            <li class="portfolio-list-card">
-              <img
-                src="./images/cashless_payment.jpg"
-                alt="Cashless Payment"
-                width="360"
-                height="300"
-              >
-              <!-- <div class="portfolio-list-card-content"> -->
-                <h3 class="portfolio-list-card-tytle">Cashless Payment</h3>
-                <p class="paragraphs">Marketing</p>
-              <!-- </div> -->
-            </li>
-            <li class="portfolio-list-card">
-              <img
-                src="./images/meditation_app.jpg"
-                alt="Cashless Payment"
-                width="360"
-                height="300"
-              >
-              <!-- <div class="portfolio-list-card-content"> -->
-                <h3 class="portfolio-list-card-tytle">Meditation App</h3>
-                <p class="paragraphs">App</p>
-              <!-- </div> -->
-            </li>
+        <ul class="portfolio-list">
+          <li class="portfolio-list-card">
+            <img
+              src="./images/banking_app.jpg"
+              alt="Banking App"
+              width="360"
+              height="300"
+            />
+            <!-- <div class="portfolio-list-card-content"> -->
+            <h3 class="portfolio-list-card-tytle">Banking App</h3>
+            <p class="paragraphs">App</p>
+            <!-- </div> -->
+          </li>
+          <li class="portfolio-list-card">
+            <img
+              src="./images/cashless_payment.jpg"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
+            />
+            <!-- <div class="portfolio-list-card-content"> -->
+            <h3 class="portfolio-list-card-tytle">Cashless Payment</h3>
+            <p class="paragraphs">Marketing</p>
+            <!-- </div> -->
+          </li>
+          <li class="portfolio-list-card">
+            <img
+              src="./images/meditation_app.jpg"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
+            />
+            <!-- <div class="portfolio-list-card-content"> -->
+            <h3 class="portfolio-list-card-tytle">Meditation App</h3>
+            <p class="paragraphs">App</p>
+            <!-- </div> -->
+          </li>
           <!-- </ul> -->
-        <!-- </div> -->
-        <!-- 2-й ряд портфолио -->
-        <!-- <div> -->
+          <!-- </div> -->
+          <!-- 2-й ряд портфолио -->
+          <!-- <div> -->
           <!-- <ul class="portfolio-list"> -->
-            <li class="portfolio-list-card">
-              <img
-                src="./images/taxi_service.jpg"
-                alt="Taxi Service"
-                width="360"
-                height="300"
-              >
-              <!-- <div class="portfolio-list-card-content"> -->
-                <h3 class="portfolio-list-card-tytle">Taxi Service</h3>
-                <p class="paragraphs">Marketing</p>
-              <!-- </div> -->
-            </li>
-            <li class="portfolio-list-card">
-              <img
-                src="./images/screen_illustrations.jpg"
-                alt="Screen Illustrations"
-                width="360"
-                height="300"
-              >
-              <!-- <div class="portfolio-list-card-content"> -->
-                <h3 class="portfolio-list-card-tytle">Screen Illustrations</h3>
-                <p class="paragraphs">Design</p>
-              <!-- </div> -->
-            </li>
-            <li class="portfolio-list-card">
-              <img
-                src="./images/online_courses.jpg"
-                alt="Online Courses"
-                width="360"
-                height="300"
-              >
-              <!-- <div class="portfolio-list-card-content"> -->
-                <h3 class="portfolio-list-card-tytle">Online Courses</h3>
-                <p class="paragraphs">Marketing</p>
-              <!-- </div> -->
-            </li>
-          </ul>
+          <li class="portfolio-list-card">
+            <img
+              src="./images/taxi_service.jpg"
+              alt="Taxi Service"
+              width="360"
+              height="300"
+            />
+            <!-- <div class="portfolio-list-card-content"> -->
+            <h3 class="portfolio-list-card-tytle">Taxi Service</h3>
+            <p class="paragraphs">Marketing</p>
+            <!-- </div> -->
+          </li>
+          <li class="portfolio-list-card">
+            <img
+              src="./images/screen_illustrations.jpg"
+              alt="Screen Illustrations"
+              width="360"
+              height="300"
+            />
+            <!-- <div class="portfolio-list-card-content"> -->
+            <h3 class="portfolio-list-card-tytle">Screen Illustrations</h3>
+            <p class="paragraphs">Design</p>
+            <!-- </div> -->
+          </li>
+          <li class="portfolio-list-card">
+            <img
+              src="./images/online_courses.jpg"
+              alt="Online Courses"
+              width="360"
+              height="300"
+            />
+            <!-- <div class="portfolio-list-card-content"> -->
+            <h3 class="portfolio-list-card-tytle">Online Courses</h3>
+            <p class="paragraphs">Marketing</p>
+            <!-- </div> -->
+          </li>
+        </ul>
         <!-- </div> -->
       </section>
     </main>
