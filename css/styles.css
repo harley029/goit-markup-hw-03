@@ -287,12 +287,12 @@ ol {
 /* Футер */
 .footer-line {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-container {
   width: 1128px;
   margin: auto;
-  padding: 100px 0;
 }
 
 .logo-container {
