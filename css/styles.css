@@ -118,7 +118,7 @@ ol {
 /* Секція 1 - Intro */
 .intro {
   background: #2e2f42;
-  padding: 188px 0
+  padding: 188px 0 188px 0;
 }
 .info-container {
   width: 1128px;
@@ -164,8 +164,13 @@ ol {
   background: #fff;
   width: 1128px;
   margin: auto;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+  padding: 188px 0
+}
+.titles-h2 {
+  visibility: hidden;
+  margin: 0;
 }
 .features-list {
   list-style-type: none;
