@@ -162,12 +162,9 @@ ol {
 /* секція 2 - Features */
 .section1 {
   background: #fff;
-  
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
+  padding: 188px 0;
 }
 .section1-container {
-  padding: 188px 0;
   width: 1128px;
   margin: auto;
 }
@@ -177,9 +174,8 @@ ol {
   display: flex;
   gap: 24px;
 }
-.features-list .features-item {
-  width: 1128px;
-  width: calc((100%- (24px * 3)) / 4);
+.features-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .features-item {
@@ -194,7 +190,7 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 /* секція 3 - Our Team */
