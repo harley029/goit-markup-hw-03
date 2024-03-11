@@ -195,12 +195,11 @@ ol {
   margin-bottom: 8px;
 }
 
-/* секція 3 - Our Team */
+/* секція 3 - Our Team -------------- REAFDY --------------*/
 .our-team {
   background: #f4f4fd;
   padding: 120px 0;
 }
-
 .our-team-tytle {
   color: #2e2f42;
   font-size: 36px;
@@ -243,7 +242,6 @@ ol {
   text-align: center;
   margin-bottom: 8px;
 }
-
 .our-team-list-card-paragrapf {
   text-align: center;
 }
@@ -251,6 +249,7 @@ ol {
 /* Cекція 4 - Our Portfolio */
 .our-portfolio {
   background: #fff;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 .our-portfolio-tytle {
@@ -261,8 +260,7 @@ ol {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .portfolio-list {
   list-style-type: none;
@@ -270,27 +268,33 @@ ol {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  column-gap: 24px;
   row-gap: 48px;
   justify-content: space-between;
 }
 
 .portfolio-list-card {
-  border: 1px solid #e7e9fc;
+  /* border: 1px solid #e7e9fc; */
+  width: calc((100% - 48px) / 3);
 }
-
+.portfolio-list-card-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
 .portfolio-list-card-tytle {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-bottom: 8px;
-  padding-left: 16px;
+  /* padding-top: 32px; */
+  margin-left: 16px;
 }
 .portfolio-list-card-text {
-  padding-left: 16px;
-  padding-bottom: 32px;
+  margin-left: 16px;
+  /* padding-bottom: 32px; */
 }
 
 /* Футер -------------- REAFDY -------------- */
