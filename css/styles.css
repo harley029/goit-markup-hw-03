@@ -244,6 +244,10 @@ ol {
   margin-bottom: 8px;
 }
 
+.our-team-list-card-paragrapf {
+  text-align: center;
+}
+
 /* Cекція 4 - Our Portfolio */
 .our-portfolio {
   background: #fff;
