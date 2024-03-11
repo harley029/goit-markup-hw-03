@@ -292,7 +292,12 @@ ol {
 .footer-container {
   width: 1128px;
   margin: auto;
-  padding-top: 100px;
+  padding: 100px 0;
+}
+
+.logo-container {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 /* логотип */
@@ -304,6 +309,4 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
-  padding-top: 16px;
-  padding-bottom: 100px;
 }
