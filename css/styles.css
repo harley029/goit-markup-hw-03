@@ -38,6 +38,11 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/* Загальні стилі для DIV */
+.container {
+  width: 1128px;
+  margin: auto;
+}
 
 /* секція header */
 .logo-container {
@@ -290,10 +295,10 @@ ol {
   padding: 100px 0;
 }
 
-.footer-container {
+/* .footer-container {
   width: 1128px;
   margin: auto;
-}
+} */
 
 .logo-container {
   display: inline-block;
