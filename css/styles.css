@@ -118,6 +118,7 @@ ol {
 /* Секція 1 - Intro */
 .intro {
   background: #2e2f42;
+  padding: 188px 0
 }
 .info-container {
   width: 1128px;
@@ -125,7 +126,6 @@ ol {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 188px 0
 }
 .main-header {
   color: #fff;
