@@ -5,14 +5,21 @@ body {
   background: #fff;
   font-style: normal;
 }
-h1, h2, h3, h4, h5, h6, p {
-	margin-top: 0;
-	margin-bottom: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
-ul, ol {
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-left: 0;
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 /* загальні стилі для заголовків */
 .titles-h2 {
@@ -49,6 +56,9 @@ ul, ol {
 /* меню переходов по странице */
 .page-nav {
   list-style-type: none;
+  display: flex;
+  gap: 40px;
+  padding-left: 76px;
 }
 .page-nav-link {
   color: #2e2f42;
@@ -63,6 +73,13 @@ ul, ol {
 .page-nav .page-nav-link:active {
   color: #404bbf;
 }
+.logo_plus_navigation {
+  width: 1128px;
+  margin: auto;
+  display: flex;
+  justify-content: start;
+  /* justify-content: space-between; */
+}
 /* меню контактів */
 .contacts-container {
   color: #434455;
@@ -74,7 +91,10 @@ ul, ol {
 }
 .contacts {
   list-style-type: none;
+  display: flex;
+  gap: 40px;
 }
+
 .contacts-links {
   color: #434455;
   text-decoration: none;
@@ -85,9 +105,26 @@ ul, ol {
   color: #404bbf;
 }
 
+.main-menu {
+  width: 1128px;
+  margin: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+
 /* Секція 1 - Intro */
 .intro {
   background: #2e2f42;
+}
+.info-container {
+  width: 1128px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .main-header {
   color: #fff;
@@ -96,6 +133,10 @@ ul, ol {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  width: 496px;
+  margin: auto;
+  padding-top: 188px;
+  padding-bottom: 48px;
 }
 .order-service-button {
   cursor: pointer;
@@ -105,6 +146,8 @@ ul, ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding: 16px 32px 16px 32px;
+  margin-bottom: 188px;
 }
 
 .order-service-button:active,
@@ -116,10 +159,21 @@ ul, ol {
 /* секція 2 - Features */
 .section1 {
   background: #fff;
+  width: 1128px;
+  margin: auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .features-list {
   list-style-type: none;
+  display: flex;
+  gap: 24px;
 }
+.features-list .features-item {
+  width: 1128px;
+  width: calc((100%- (24px * 3)) / 4);
+}
+
 .features-item {
   font-weight: 500;
   font-size: 20px;
@@ -132,12 +186,14 @@ ul, ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-bottom: 8px;
 }
 
 /* секція 3 - Our Team */
 .our-team {
   background: #f4f4fd;
 }
+
 .our-team-tytle {
   color: #2e2f42;
   font-size: 36px;
@@ -146,12 +202,28 @@ ul, ol {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 .our-team-list {
   list-style-type: none;
+  width: 1128px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 120px;
 }
 .our-team-list-card {
   background: #fff;
+  width: calc((100% - 24px * 3) / 4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  padding-bottom: 32px;
 }
 .our-team-list-card-tytle {
   color: #2e2f42;
@@ -159,11 +231,14 @@ ul, ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 /* Cекція 4 - Our Portfolio */
 .our-portfolio {
   background: #fff;
+  padding-bottom: 120px;
 }
 .our-portfolio-tytle {
   color: #2e2f42;
@@ -173,22 +248,49 @@ ul, ol {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 .portfolio-list {
   list-style-type: none;
+  width: 1128px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  justify-content: space-between;
 }
+
+.portfolio-list-card {
+  border: 1px solid #e7e9fc;
+}
+
 .portfolio-list-card-tytle {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+}
+.portfolio-list-card-text {
+  padding-left: 16px;
+  padding-bottom: 32px;
 }
 
 /* Футер */
 .footer-line {
   background: #2e2f42;
 }
+
+.footer-container {
+  width: 1128px;
+  margin: auto;
+  padding-top: 100px;
+}
+
 /* логотип */
 .footer-logo-part {
   color: #f4f4fd;
@@ -197,4 +299,7 @@ ul, ol {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
+  padding-top: 16px;
+  padding-bottom: 100px;
 }
