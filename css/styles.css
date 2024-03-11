@@ -115,24 +115,16 @@ ol {
   margin: auto;
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #e7e9fc
   /* display: flex; */
   /* justify-content: space-between; */
   /* align-items: center; */
 }
 
-/* Секція 1 - Intro */
+/* Секція 1 - Intro -------------- REAFDY -------------- */
 .intro {
   background: #2e2f42;
   padding: 188px 0 188px 0;
 }
-/* .info-container {
-  width: 1128px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
 .main-header {
   color: #fff;
   text-align: center;
@@ -160,7 +152,6 @@ ol {
   display: block;
   margin: auto;
 }
-
 .order-service-button:active,
 .order-service-button:hover,
 .order-service-button:focus {
@@ -170,7 +161,10 @@ ol {
 /* секція 2 - Features */
 .section1 {
   background: #fff;
-  padding: 188px 0;
+  padding: 120px 0;
+}
+.visually-hidden {
+  display: none;
 }
 .section1-container {
   width: 1128px;
@@ -204,6 +198,7 @@ ol {
 /* секція 3 - Our Team */
 .our-team {
   background: #f4f4fd;
+  padding: 120px 0;
 }
 
 .our-team-tytle {
@@ -214,17 +209,16 @@ ol {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .our-team-list {
   list-style-type: none;
   width: 1128px;
   margin: auto;
   display: flex;
+  gap: 24px;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 120px;
 }
 .our-team-list-card {
   background: #fff;
@@ -232,10 +226,13 @@ ol {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 0 0 4px 4px;
+  border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   padding-bottom: 32px;
+}
+.our-team-list-content {
+  padding: 32px 0;
 }
 .our-team-list-card-tytle {
   color: #2e2f42;
@@ -243,7 +240,7 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 32px;
+  text-align: center;
   margin-bottom: 8px;
 }
 
@@ -292,17 +289,15 @@ ol {
   padding-bottom: 32px;
 }
 
-/* Футер */
+/* Футер -------------- REAFDY -------------- */
 .footer-line {
   background: #2e2f42;
   padding: 100px 0;
 }
-
 .logo-container {
   display: inline-block;
   margin-bottom: 16px;
 }
-
 /* логотип */
 .footer-logo-part {
   color: #f4f4fd;
