@@ -125,13 +125,13 @@ ol {
   background: #2e2f42;
   padding: 188px 0 188px 0;
 }
-.info-container {
+/* .info-container {
   width: 1128px;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 .main-header {
   color: #fff;
   text-align: center;
@@ -156,6 +156,8 @@ ol {
   height: 56px;
   border: none;
   border-radius: 4px;
+  display: block;
+  margin: auto;
 }
 
 .order-service-button:active,
@@ -294,11 +296,6 @@ ol {
   background: #2e2f42;
   padding: 100px 0;
 }
-
-/* .footer-container {
-  width: 1128px;
-  margin: auto;
-} */
 
 .logo-container {
   display: inline-block;
