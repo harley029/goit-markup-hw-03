@@ -51,43 +51,14 @@ ol {
 .header-container {
   display: flex;
   width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-.page-nav {
-  display: flex;
-  align-items: center;
-}
-.logo-container {
-  margin-right: 76px;
-}
-.page-nav-links {
-  display: flex;
-  gap: 40px;
-}
-.page-nav-link {
-  padding: 24px 0;
-}
-.contacts {
-  display: flex;
-  gap: 40px;
-}
-/* .header {
-  border-bottom: 1px solid #e7e9fc;
-}
-.logo_plus_navigation {
-  width: 1158px;
   margin: auto;
-  display: flex;
   padding: 0 15px;
-  /* justify-content: start; */
-/* justify-content: space-between; */
-/* }
+  align-items: baseline;
+}
 .page-nav {
   display: flex;
-  align-items: center;
-} */
-/* 
+  align-items: baseline;
+}
 .logo-container {
   font-family: Raleway, sans-serif;
   color: #4d5ae5;
@@ -101,54 +72,48 @@ ol {
 }
 .logo-2nd-part {
   color: #2e2f42;
-} */
-*/
-/* меню переходов по странице */
-/* .page-nav-link {
+}
+.page-nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  margin-right: 332px;
+}
+.page-nav-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
+  padding: 24px 0;
 }
-.page-nav-links {
-  list-style-type: none;
-  display: flex;
-  gap: 40px;
-  padding-left: 76px;
-}
-
-.page-nav .page-nav-link:hover,
-.page-nav .page-nav-link:focus,
-.page-nav .page-nav-link:active {
-  color: #404bbf;
-} */
-
-/* меню контактів */
-/* .contacts-container {
+.contacts {
   color: #434455;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-}
-.contacts {
   list-style-type: none;
   display: flex;
   gap: 40px;
-} */
-
-/* .contacts-links {
+}
+.contacts-links {
   color: #434455;
   text-decoration: none;
+}
+
+.page-nav .page-nav-link:hover,
+.page-nav .page-nav-link:focus,
+.page-nav .page-nav-link:active {
+  color: #404bbf;
 }
 .contacts .contacts-links:hover,
 .contacts .contacts-links:focus,
 .contacts .contacts-links:active {
   color: #404bbf;
-}  */
+}
 
 /* Секція 1 - Intro -------------- REAFDY -------------- */
 .intro {
