@@ -43,6 +43,13 @@ ol {
   width: 1128px;
   margin: auto;
 }
+.image {
+  display: block;
+}
+
+img {
+  display: block;
+}
 
 /* секція header */
 .header {
@@ -51,13 +58,13 @@ ol {
 .header-container {
   display: flex;
   width: 1158px;
-  margin: auto;
+  margin: 0 auto;
   padding: 0 15px;
-  align-items: baseline;
+  align-items: center;
 }
 .page-nav {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 .logo-container {
   font-family: Raleway, sans-serif;
