@@ -45,6 +45,22 @@ ol {
 }
 
 /* секція header */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.logo_plus_navigation {
+  width: 1158px;
+  margin: auto;
+  display: flex;
+  padding: 0 15px;
+  /* justify-content: start; */
+  /* justify-content: space-between; */
+}
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo-container {
   font-family: Raleway, sans-serif;
   color: #4d5ae5;
@@ -54,17 +70,12 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo-2nd-part {
   color: #2e2f42;
 }
 /* меню переходов по странице */
-.page-nav {
-  list-style-type: none;
-  display: flex;
-  gap: 40px;
-  padding-left: 76px;
-}
 .page-nav-link {
   color: #2e2f42;
   font-size: 16px;
@@ -72,19 +83,22 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
+  /* display: flex;
+  gap: 40px; */
 }
+.page-nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  padding-left: 76px;
+}
+
 .page-nav .page-nav-link:hover,
 .page-nav .page-nav-link:focus,
 .page-nav .page-nav-link:active {
   color: #404bbf;
 }
-.logo_plus_navigation {
-  width: 1128px;
-  margin: auto;
-  display: flex;
-  justify-content: start;
-  /* justify-content: space-between; */
-}
+
 /* меню контактів */
 .contacts-container {
   color: #434455;
@@ -108,16 +122,6 @@ ol {
 .contacts .contacts-links:focus,
 .contacts .contacts-links:active {
   color: #404bbf;
-}
-
-.main-menu {
-  width: 1128px;
-  margin: auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
 }
 
 /* Секція 1 - Intro -------------- REAFDY -------------- */
@@ -246,7 +250,7 @@ ol {
   text-align: center;
 }
 
-/* Cекція 4 - Our Portfolio */
+/* Cекція 4 - Our Portfolio -------------- REAFDY -------------- */
 .our-portfolio {
   background: #fff;
   padding-top: 120px;
@@ -272,7 +276,6 @@ ol {
   row-gap: 48px;
   justify-content: space-between;
 }
-
 .portfolio-list-card {
   /* border: 1px solid #e7e9fc; */
   width: calc((100% - 48px) / 3);
